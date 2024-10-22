@@ -66,7 +66,6 @@ table {
 	padding-top: 138px;
 }
 /* ==========================================================================Navigation========================================================================== */
-
 .cv button {
 	background-color: #af4c4c; 
 	color: #ffffff; 
@@ -75,7 +74,6 @@ table {
 	border-radius: 5px;
 	cursor: pointer;
   }
-  
   button:hover {
 	background-color: #ed6666; 
   }
@@ -107,7 +105,6 @@ table {
 	-webkit-transform:translate3d(1.5em,1.5em,0);
 	transform: translate3d(1.5em,1.5em,0);
 }
-
 .menu-button {
 	z-index:1000;
 	margin:0;
@@ -203,6 +200,8 @@ table {
 	-webkit-transition-delay:0.5s;
 	transition-delay: 0.5s;
 }
+
+
 /* ==========================================================================Hero========================================================================== */
 .image{
 	width: 30%;
@@ -669,6 +668,10 @@ nav ul li a {
 		padding: 95px 0px 0px 0px;
 	}
 
+	.cv{
+		padding-top: 300px;
+	}
+
 	.hero h1 {
 		font-size: 100px;
 		line-height: 80px;
@@ -738,21 +741,16 @@ nav ul li a {
     padding-top: 10px;
     text-align: center;
 	}
-
 	.hero h3 {
 	    letter-spacing: 10px;
 	}
-
-
 	.hero {
 	    padding-bottom: 0;
 	}
-
 	.subscribe input[type=text] {
 	    width: 50%;
 	    margin-bottom: 30px;
 	}
-
 	.btn-send {
 	    float: none;
 	
